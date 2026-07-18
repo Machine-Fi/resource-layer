@@ -1,0 +1,14 @@
+{
+  "name": "@machinefi/resource-layer",
+  "version": "0.1.0",
+  "description": "Machine-to-machine resource requests over multi-chain runtime rails.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
