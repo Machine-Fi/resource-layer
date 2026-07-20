@@ -4,3 +4,8 @@ export { ErrorCodes, ResourceLayerError, fail, ok, unwrap } from "./errors.js";
 export { validateMachineSession, validateProviderCapability, validateResourceRequest } from "./validation.js";
 export { createProviderRegistry } from "./providers/registry.js";
 export { fixtureProviderCapabilities } from "./fixtures/providers.js";
+export { createRailPolicy, createRuntimeRail, selectRuntimeRail } from "./rails/policy.js";
+export { fixtureRuntimeRails } from "./fixtures/rails.js";
+export { createLedgerBook, createRailLedger } from "./rails/ledger.js";
+export { fixtureLedgerBook } from "./fixtures/ledgers.js";
+export { capabilityPurposeRule, createPolicyEngine, defaultRules, freshnessRule, regionCompatibilityRule, requesterTrustRule, spendLimitRule } from "./policies/policy-engine.js";
